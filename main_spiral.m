@@ -8,11 +8,11 @@ fileScript = matlab.desktop.editor.getActiveFilename;
 addpath (pathProject)
 addpath ([pathProject '/kinematics'])
 pathData = ([pathProject '/data']);
-FilesToLoad = {'Spiral_patxx.mat', 'Spiral_model.mat', 'Spiral_HC.mat'}
+FilesToLoad = {'Spiral_HC.mat', 'Spiral_model.mat', 'Spiral_patxx.mat'}
 
 cd (pathData)
 
-iFile=1;    % 1 = Spiral_patxx.mat, 2 = Spiral_model.mat, 3 = Spiral_HC.mat
+iFile=1;    % 1 = Spiral_HC.mat , 2 = Spiral_model.mat, 3 = Spiral_patxx.mat
 load (FilesToLoad{iFile})
 
 %% filter (4th order LP 10Hz butterworth)
@@ -77,7 +77,7 @@ residuals(transition1:end)= mdl.Residuals.Raw;
 
 
 %% slope of the velocity signal around burst
-if iFile ==1
+if iFile ==3
     load ("LFP_patxx_beta_rect_smooth.mat")
 
     cfg= [];
