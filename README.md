@@ -21,7 +21,7 @@ Expected time to run:
 
 Expected output can be seen in   
 - SpiralHC.jpg, and SpiralModel.jpg  
-- PowerspecRest-Draw.jpg and Powerspec.jpg  
+- Powerspec.jpg  
 - BetaBurstDrawing.jpg and BetaBurstDetermination.jpg  
 
 
