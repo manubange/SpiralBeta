@@ -1,6 +1,6 @@
 # Matlab Code for the SpiralBeta paper.  
-The function determineThresh.m defines the beta amplitude threshold (defined as 75 percentile of the amplitude distribution).  
-The function betaBurstFeatures.m extracts burst amplitude, duration, and number of bursts of a given segment of electrophysiological data.    
+The function _determineThresh.m_ defines the beta amplitude threshold (defined as 75 percentile of the amplitude distribution).  
+The function _betaBurstFeatures.m_ extracts burst amplitude, duration, and number of bursts of a given segment of electrophysiological data.    
 Example data are provided in /data  
 
 # Installation guide
@@ -10,21 +10,19 @@ Kinematics toolbox is attached (http://www.diedrichsenlab.org/toolboxes/toolbox_
 
 
 # Demo Instructions
-To run the demo, open the example scripts (main_spiral.m and main_determineBetaBurstsPatxx.m) in the matlab editor and press f5 to run all sections.
-main_spiral.m loads a spiral drawn by a study participant (Spiral_patxx.mat), healthy person (Spiral_HC.mat), or a modelled spiral.  
-main_determineBetaBurstsPatxx.m calculates burst characteristics of one example dataset (LFP_patxx.mat).  
-main_determineBetaBursts.m loads 10 seconds of modelled electrophysiological data (LFP.mat).  
+To run the demo, open the example scripts (_main_spiral.m_ and _main_determineBetaBursts.m_) in the matlab editor and press f5 to run all sections.
+_main_spiral.m_ loads a spiral drawn by a healthy person (Spiral_HC.mat), or a modelled spiral.  
+_main_determineBetaBursts.m_ loads 10 seconds of modelled electrophysiological data (LFP.mat).  
 
 
 Expected time to run:  
-- main_determineBetaBurstsPatxx.m < 1 minute   
-- main_determineBetaBursts.m < 1 minute  
-- main_spiral.m < 1 minute  
+- _main_determineBetaBursts.m_ < 1 minute  
+- _main_spiral.m_ < 1 minute  
 
 Expected output can be seen in   
-- SpiralPatxx.jpg, SpiralHC.jpg, and SpiralModel.jpg  
-- PowerspecRest-Draw.jpg and Powerspec.jpg  
-- BetaBurstDrawing.jpg and BetaBurstDetermination.jpg  
+- SpiralHC.jpg and SpiralModel.jpg  
+- Powerspec.jpg  
+- BetaBurstDetermination.jpg  
 
 
 # System requirements
