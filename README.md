@@ -10,19 +10,17 @@ Kinematics toolbox is attached (http://www.diedrichsenlab.org/toolboxes/toolbox_
 
 
 # Demo Instructions
-To run the demo, open the example scripts (_main_spiral.m_ and _main_determineBetaBurstsPatxx.m_) in the matlab editor and press f5 to run all sections.
-_main_spiral.m_ loads a spiral drawn by a study participant (Spiral_patxx.mat), healthy person (Spiral_HC.mat), or a modelled spiral.  
-_main_determineBetaBurstsPatxx.m_ calculates burst characteristics of one example dataset (LFP_patxx.mat).  
+To run the demo, open the example scripts (_main_spiral.m_ and _main_determineBetaBursts.m_) in the matlab editor and press f5 to run all sections.
+_main_spiral.m_ loads a spiral drawn by a healthy person (Spiral_HC.mat), or a modelled spiral.  
 _main_determineBetaBursts.m_ loads 10 seconds of modelled electrophysiological data (LFP.mat).  
 
 
 Expected time to run:  
-- _main_determineBetaBurstsPatxx.m_ < 1 minute   
 - _main_determineBetaBursts.m_ < 1 minute  
 - _main_spiral.m_ < 1 minute  
 
 Expected output can be seen in   
-- SpiralPatxx.jpg, SpiralHC.jpg, and SpiralModel.jpg  
+- SpiralHC.jpg, and SpiralModel.jpg  
 - PowerspecRest-Draw.jpg and Powerspec.jpg  
 - BetaBurstDrawing.jpg and BetaBurstDetermination.jpg  
 
