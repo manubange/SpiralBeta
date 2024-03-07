@@ -1,10 +1,10 @@
-# Matlab Code for the SpiralBeta paper.  
+# Matlab Code for the study ‘Bange et al.: Subthalamic stimulation modulates context-dependent effects of beta bursts during fine motor control’.  
 The function _determineThresh.m_ defines the beta amplitude threshold (defined as 75 percentile of the amplitude distribution).  
 The function _betaBurstFeatures.m_ extracts burst amplitude, duration, and number of bursts of a given segment of electrophysiological data.    
-Example data are provided in /data  
+Example data are provided in /data (LFP.mat, Spiral_HC.mat, and spiral_model.mat). This is not the actual data from the study, and thus the results will not match the study results, but the structure is the same and therefore they allow testing all scripts if applicable  
 
 # Installation guide
-No installation required. 
+Matlab requires a software license. Installation guides can be found on: https://matlab.mathworks.com/
 Download FieldTrip36 (https://www.fieldtriptoolbox.org/) and add the folder to the working directory in Matlab. If Fieldtrip cannot be downloaded, the example scripts will skip the related steps and load already prepocessed data instead.
 Kinematics toolbox is attached (http://www.diedrichsenlab.org/toolboxes/toolbox_kinematics.htm)
 
