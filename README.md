@@ -20,9 +20,9 @@ Expected time to run:
 - _main_spiral.m_ < 1 minute  
 
 Expected output can be seen in   
-- SpiralHC.jpg, and SpiralModel.jpg  
+- SpiralHC.jpg and SpiralModel.jpg  
 - Powerspec.jpg  
-- BetaBurstDrawing.jpg and BetaBurstDetermination.jpg  
+- BetaBurstDetermination.jpg  
 
 
 # System requirements
