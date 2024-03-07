@@ -11,13 +11,13 @@ Kinematics toolbox is attached (http://www.diedrichsenlab.org/toolboxes/toolbox_
 
 # Demo Instructions
 To run the demo, open the example scripts (_main_spiral.m_ and _main_determineBetaBursts.m_) in the matlab editor and press f5 to run all sections.
-_main_spiral.m_ loads a spiral drawn by a healthy person (Spiral_HC.mat), or a modelled spiral.  
-_main_determineBetaBursts.m_ loads 10 seconds of modelled electrophysiological data (LFP.mat).  
+main_spiral.m loads a spiral drawn by a healthy person (Spiral_HC.mat), or a modelled spiral.  
+main_determineBetaBursts.m loads 10 seconds of modelled electrophysiological data (LFP.mat).  
 
 
 Expected time to run:  
-- _main_determineBetaBursts.m_ < 1 minute  
-- _main_spiral.m_ < 1 minute  
+- main_determineBetaBursts.m < 1 minute  
+- main_spiral.m < 1 minute  
 
 Expected output can be seen in   
 - SpiralHC.jpg and SpiralModel.jpg  
