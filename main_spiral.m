@@ -159,8 +159,8 @@ end
 % plot spiral
 subplot(2,2,1)
 plot(x,y) ;
-xlim ([-6 6])
-ylim ([-6 6])
+xlim ([-8 8])
+ylim ([-8 8])
 axis square
 xlabel ('pos x (cm)')
 ylabel ('pos y (cm)')
